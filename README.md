@@ -10,3 +10,8 @@ Trails was the final project for an introduction to software design class at my 
 ##Things I learned
 
 This by far the biggest project that I have worked on. It was a great learning experience and tested my abilities. It forced me to think of the big picture of the project, and research topics that I had no previous knowledge of such as GUIs, Artificial Intelligence, and Threads. This class and project really helped with learning java and computer science concepts.
+
+
+##Improvements
+
+JLabel that tells you who won, AI that can beat a human, etc.
