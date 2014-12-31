@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Observable;
 import java.util.Scanner;
-
 import edu.indiana.cs.c212.board.Board;
 import edu.indiana.cs.c212.board.SimpleGameBoard;
 import edu.indiana.cs.c212.exceptions.InvalidMoveException;
@@ -15,7 +14,6 @@ import edu.indiana.cs.c212.players.Player;
 import edu.indiana.cs.c212.players.PointAndClickPlayer;
 import edu.indiana.cs.c212.players.SimpleRandom;
 import edu.indiana.cs.c212.players.StupidDefenseAI;
-import edu.indiana.cs.c212.players.WinBlockingPlayer;
 import edu.indiana.cs.c212.view.graphical.GraphicalBoardView;
 import edu.indiana.cs.c212.view.textual.CommandLineView;
 
@@ -46,7 +44,6 @@ public class GameRunner extends Observable implements Runnable {
 		playersList.add("Point and Click");
 		playersList.add("Basic Trails Player");
 		playersList.add("StupidDefenseAI");
-		playersList.add("WinBlockingPlayer");
 		return playersList;
 
 	}
@@ -153,10 +150,6 @@ public class GameRunner extends Observable implements Runnable {
 		case "StupidDefenseAI":
 			StupidDefenseAI stupidAI = new StupidDefenseAI(color);
 			return stupidAI;
-			
-		case "WinBlockingPlayer":
-			WinBlockingPlayer winBlock = new WinBlockingPlayer(color);
-			return winBlock;
 		default:
 			return null;
 		}

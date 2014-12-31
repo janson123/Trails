@@ -28,7 +28,7 @@ public class PlayerChoicePanel extends JPanel {
 		//Update this if I add other players.
 		String[] typesOfPlayers = {"Point and Click",
 				"Simple Random", "StupidDefenseAI",
-				"Basic Trails Player", "Command Line Player", "WinBlockingPlayer"};
+				"Basic Trails Player", "Command Line Player"};
 		
 		typelist = new JComboBox<String>(typesOfPlayers);
 		typelist.setVisible(true);
