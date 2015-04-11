@@ -14,4 +14,4 @@ This by far the biggest project that I have worked on. It was a great learning e
 
 ##Improvements to work on
 
-JLabel that tells you who won, AI that can beat a human, etc. Test
+JLabel that tells you who won, AI that can beat a human, etc.
